@@ -1,4 +1,4 @@
-# Bus Buddy 🚌
+# Bus Buddy 🚌 Your Journey Begins
 
 Bus Buddy is a web-based ride-hailing platform designed to simplify the booking experience for users. Featuring a modern urban aesthetic and a map-centric interface, Bus Buddy makes it easy to book rides with a clean, intuitive interface. Whether you're planning a daily commute or a one-time trip, our platform allows users to choose ride locations interactively and manage bookings efficiently.
 
