@@ -8,10 +8,10 @@ With robust user authentication, a prominent ride booking interface, and a focus
 
 ## Prerequisites and Dependencies
 To run this project, ensure you have the following installed:
-- **Python 3.8 or higher**
-- **Git**
+- **Python 3.8 or <a href="https://www.python.org/downloads/">higher</a>**
+- **Download <a href="https://git-scm.com/downloads">Git</a>**
 - **A modern web browser**
-- **MongoDB** (or replace with your database of choice)
+- **Download <a href="https://www.mongodb.com/lp/cloud/atlas/try4-reg?utm_source=bing&utm_campaign=search_bs_pl_evergreen_atlas_core_prosp-brand_gic-null_emea-za_ps-all_desktop_eng_lead&utm_term=mongodb%20atlas%20online&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=415204555&adgroup=1218259353516042&msclkid=fdf41b575db718985f6d7c1e39dfd907">MongoDB</a>** (or replace with your database of choice)
 - **Virtual Environment Tool**: `venv`
 
 ---
@@ -93,4 +93,4 @@ Feel free to contribute to this project! 🚀
  - <a href="https://flask.palletsprojects.com/en/stable/">Flask Documentation</a>
  - <a href="https://www.bing.com/search?q=Python+Official+Website&FORM=SSQNT1&PC=U531">Pyhon Documentation</a>
  - <a href="https://www.mongodb.com/docs/">Mongdb Documentation</a>
- -  <a href="https://supabase.com/docs">Supabase</a>
+ - <a href="https://supabase.com/docs">Supabase</a>
