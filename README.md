@@ -73,8 +73,6 @@ Copy code
 
 ```bash
 
-```bash
-
 ## Steps to Run the Application
 1. Ensure your virtual environment is activated.
 2. Start the Flask application
