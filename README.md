@@ -81,18 +81,15 @@ Copy code
 ```bash
 
    flask run
-
-```bash
 ---
 
 3. Open your browser and navigate to:
 ```bash
 
    http://127.0.0.1:5000/
-
-```bash
-
+---
 ## Useful Links
+---
 Feel free to contribute to this project! 🚀 
  - <a href="https://flask.palletsprojects.com/en/stable/">Flask Documentation</a>
  - <a href="https://www.bing.com/search?q=Python+Official+Website&FORM=SSQNT1&PC=U531">Pyhon Documentation</a>
