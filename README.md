@@ -1,4 +1,4 @@
-# Bus Buddy 🚌 Your Journey Begins
+# Bus Buddy 🚌
 
 Bus Buddy is a web-based ride-hailing platform designed to simplify the booking experience for users. Featuring a modern urban aesthetic and a map-centric interface, Bus Buddy makes it easy to book rides with a clean, intuitive interface. Whether you're planning a daily commute or a one-time trip, our platform allows users to choose ride locations interactively and manage bookings efficiently.
 
@@ -8,10 +8,10 @@ With robust user authentication, a prominent ride booking interface, and a focus
 
 ## Prerequisites and Dependencies
 To run this project, ensure you have the following installed:
-- **Python 3.8 or <a href="https://www.python.org/downloads/">higher</a>**
-- **Download <a href="https://git-scm.com/downloads">Git</a>**
+- **Python 3.8 or higher**
+- **Git**
 - **A modern web browser**
-- **Download <a href="https://www.mongodb.com/lp/cloud/atlas/try4-reg?utm_source=bing&utm_campaign=search_bs_pl_evergreen_atlas_core_prosp-brand_gic-null_emea-za_ps-all_desktop_eng_lead&utm_term=mongodb%20atlas%20online&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=415204555&adgroup=1218259353516042&msclkid=fdf41b575db718985f6d7c1e39dfd907">MongoDB</a>** (or replace with your database of choice)
+- **MongoDB** (or replace with your database of choice)
 - **Virtual Environment Tool**: `venv`
 
 ---
@@ -65,24 +65,27 @@ Copy code
    ```bash
    python -m pip install -r requirements.txt
 
+---
 
-2. If additional packages are needed, you can add them using:
+2. If additional packages are needed, you can add them using:\
 ```bash
    python -m pip install <package-name>
 
+---
 
 ## Steps to Run the Application
 1. Ensure your virtual environment is activated.
 2. Start the Flask application
 ```bash
-
    flask run
+
+---
 
 3. Open your browser and navigate to:
 ```bash
    http://127.0.0.1:5000/
 
-
+```
 
 ## Useful Links
 -----
@@ -90,4 +93,4 @@ Feel free to contribute to this project! 🚀
  - <a href="https://flask.palletsprojects.com/en/stable/">Flask Documentation</a>
  - <a href="https://www.bing.com/search?q=Python+Official+Website&FORM=SSQNT1&PC=U531">Pyhon Documentation</a>
  - <a href="https://www.mongodb.com/docs/">Mongdb Documentation</a>
- - <a href="https://supabase.com/docs">Supabase</a>
+ -  <a href="https://supabase.com/docs">Supabase</a>
