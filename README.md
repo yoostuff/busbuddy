@@ -71,22 +71,20 @@ Copy code
 ```bash
    python -m pip install <package-name>
 
-```bash
+
 
 ## Steps to Run the Application
 1. Ensure your virtual environment is activated.
 2. Start the Flask application
 ```bash
-
+   export FLASK_APP=app.py
    flask run
----
 
 3. Open your browser and navigate to:
-```bash
 
    http://127.0.0.1:5000/
 
-
+---
 ## Useful Links
 ---
 Feel free to contribute to this project! 🚀 
