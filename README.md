@@ -2,7 +2,7 @@
 
 Bus Buddy is a web-based ride-hailing platform designed to simplify the booking experience for users. Featuring a modern urban aesthetic and a map-centric interface, Bus Buddy makes it easy to book rides with a clean, intuitive interface. Whether you're planning a daily commute or a one-time trip, our platform allows users to choose ride locations interactively and manage bookings efficiently.
 
-With robust user authentication, a prominent ride booking interface, and a focus on seamless usability, Bus Buddy aims to revolutionize urban transportation. It provides an engaging experience with motion design, bold typography, and iconography inspired by urban wayfinding systems.
+With robust user authentication, a prominent ride booking interface, and a focus on seamless usability, Bus Buddy aims to revolutionize urban transportation. It provides an engaging experience with motion design, bold typography, and iconography inspired by urban wayfinding systems. Bus Buddy is license under <a href="https://github.com/yoostuff/busbuddy/blob/main/MIT%20LICENSE">MIT License Agreement</a>.
 
 ---
 
