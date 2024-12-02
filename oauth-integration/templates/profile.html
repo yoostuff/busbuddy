@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  {% block body %}
+    <header>
+        <h1>Your Profile</h1>
+        <nav>
+            <a href="/">Home</a> |
+            <a href="/book_ride">Book a Ride</a> |
+            <a href="/logout">Logout</a>
+        </nav>
+    </header>
+    <main>
+	{% if session %}
+        <h2>Welcome, {{session.userinfo.name}}</h2>
+        {% else %}
+        <h1 id="profileDropDown" class="text-display-3">
+      Welcome Guest
+    </h1>
+        <a href="/update_profile">Update Profile</a>
+      {% endif %}
+    </main>
+</body>
+</html>
+{% endblock %}
