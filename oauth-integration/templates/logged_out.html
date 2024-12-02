@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block body %}
+<header>
+ <nav class="nav container">
+  </nav>
+</header>
+<main>
+  <div class="container">
+    <div class="card hero">
+     {% if session %}
+    <h1 class="text-display-3">
+      Welcome {{session.userinfo.name}}
+    </h1>
+      <a class="btn btn-ghost sign-in-btn" href="/logout" id="qsLogoutBtn">
+        Logout
+      </a>
+    <div><pre>{{pretty}}</pre></div>
+  {% else %}
+  <h1 id="profileDropDown" class="text-display-3">
+      Welcome Guest
+    </h1>
+   
+      <p class="text-display-1 hero-title">
+        Let's start authenticating <br> Bus Buddy with OAuth 2.0 
+      </p>
+      <p class="text-body-1 hero-tagline">
+        Configure your app <a href="/booking">here</a>
+      </p>
+      <a target="_blank" rel="noreferrer" class="btn btn-light btn-big" href="/login" id="qsLoginBtn">
+        Login
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</main>
+<footer class="footer">
+  <div class="container">
+    <strong class="text-heading-2">
+      Okta.com
+    </strong>
+    <p class="footer-tagline text-body-3">
+      Visit our
+      <a class="link" href="https://okta.com/">help center</a>
+    </p>
+    <small class="text-subtle">
+      © {{ current_year }} Okta, Inc. All rights reserved
+    </small>
+  </div>
+</footer>
+{% endblock %}
