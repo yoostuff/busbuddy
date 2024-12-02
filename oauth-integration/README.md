@@ -16,3 +16,22 @@ Update Application URLs, Application login URL, Allowed Callbacks URL and Allowe
 4. `export FLASk_APP=server.py` initiate `flask run`
 5. The app will be served at [http://localhost:3000/] or [http://localhost:5000] depending on your settings.
 
+## What is Auth0?
+
+Auth0 helps you to:
+
+* Add authentication with [multiple authentication sources](https://auth0.com/docs/identityproviders),
+either social like **Google, Facebook, Microsoft Account, LinkedIn, GitHub, Twitter, Box, Salesforce, among others**,or
+enterprise identity systems like **Windows Azure AD, Google Apps, Active Directory, ADFS or any SAML Identity Provider**.
+* Add authentication through more traditional **[username/password databases](https://docs.auth0.com/mysql-connection-tutorial)**.
+* Add support for **[linking different user accounts](https://auth0.com/docs/link-accounts)** with the same user.
+* Support for generating signed [JSON Web Tokens](https://auth0.com/docs/jwt) to call your APIs and
+**flow the user identity** securely.
+* Analytics of how, when and where users are logging in.
+* Pull data from other sources and add it to the user profile, through [JavaScript rules](https://auth0.com/docs/rules).
+
+## Create a free account in Auth0
+
+1. Go to [Auth0](https://manage.auth0.com/) and click Sign Up.
+2. Use Google, GitHub or Microsoft Account to login.
+
